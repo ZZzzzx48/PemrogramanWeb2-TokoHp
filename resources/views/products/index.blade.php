@@ -37,7 +37,7 @@
                 <td class="border p-2">{{ $p->deskripsi }}</td>
                 <td class="border p-2 text-center">
                     <div class="flex items-center justify-center gap-4">
-                        <button onclick="toggle_edit({{$p}})" class="text-green-500 font-medium">
+                        <button onclick="toggle_edit({{ $p }})" class="text-green-500 font-medium">
                             <span class="material-icons">edit</span>
                         </button>
                         <button
